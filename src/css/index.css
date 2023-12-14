@@ -1,0 +1,109 @@
+@import url(./reset.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --border-1: 1px solid #eeeeee69;
+}
+
+
+body{
+    background: #272727;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.translate{
+    border: var(--border-1);
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    border-radius: 7px;
+    background: #303030;
+}
+.translate__card{
+    width: 50%;
+}
+.translate__card-head{
+    color: #fff;
+    padding: 10px 20px;
+    border-bottom: var(--border-1);
+    position: relative;
+}
+.translate__card-head button{
+    position: absolute;
+    right: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.translate__card-body{
+    padding: 10px 30px;
+    min-height: 250px;
+    position: relative;
+}
+textarea.translate__card-text{
+    min-height: 250px;
+    background: transparent;
+    border: 0;
+    width: 100%;
+}
+.translate__card-body--border{
+    border-right: var(--border-1);
+}
+.translate__card-text{
+    color: #fff;
+    font-size: 17px;
+}
+.translate__card-btn{
+    position: absolute;
+    top: 50%;
+    right: -25px;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #5f5fcd;
+    z-index: 30;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.translate__card-btn i{
+    font-size: 30px;
+    color: #fff;
+}
+.translate__card-btn.animation i{
+    animation: fullRotate 1.3s infinite ease-in-out;
+}
+
+@keyframes fullRotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.select__single-value{
+    color: #fff !important;
+}
+.select__control{
+    width: 200px;
+}
+.select__control{
+    border: var(--border-1) !important;
+}
+.select__indicator-separator{
+    background-color: #eeeeee69 !important;
+}

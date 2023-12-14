@@ -1,0 +1,86 @@
+[
+    {
+      "name": "İngilizce",
+      "code": "en"
+    },
+    {
+      "name": "İspanyolca",
+      "code": "es"
+    },
+    {
+      "name": "Fransızca",
+      "code": "fr"
+    },
+    {
+      "name": "Almanca",
+      "code": "de"
+    },
+    {
+      "name": "Çince (Basitleştirilmiş)",
+      "code": "zh-CN"
+    },
+    {
+      "name": "Portekizce",
+      "code": "pt"
+    },
+    {
+      "name": "Hindice",
+      "code": "hi"
+    },
+    {
+      "name": "Rusça",
+      "code": "ru"
+    },
+    {
+      "name": "Arapça",
+      "code": "ar"
+    },
+    {
+      "name": "Japonca",
+      "code": "ja"
+    },
+    {
+      "name": "Türkçe",
+      "code": "tr"
+    },
+    {
+      "name": "Korece",
+      "code": "ko"
+    },
+    {
+      "name": "İtalyanca",
+      "code": "it"
+    },
+    {
+      "name": "Farsça",
+      "code": "fa"
+    },
+    {
+      "name": "Lehçe",
+      "code": "pl"
+    },
+    {
+      "name": "Hollandaca",
+      "code": "nl"
+    },
+    {
+      "name": "Yunanca",
+      "code": "el"
+    },
+    {
+      "name": "Çince (Geleneksel)",
+      "code": "zh-TW"
+    },
+    {
+      "name": "Vietnamca",
+      "code": "vi"
+    },
+    {
+      "name": "Endonezce",
+      "code": "id"
+    },
+    {
+      "name": "Tayca",
+      "code": "th"
+    }
+  ]
